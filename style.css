@@ -19,3 +19,7 @@ h1 {
 	border: 1px solid gray;
 	border-radius: 4px;
 }
+
+.text {
+	color: red;
+}
