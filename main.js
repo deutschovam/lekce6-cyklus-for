@@ -7,13 +7,11 @@
 console.log('První příklad - vypsat čísla od 0 do 10');
 //TADY NAPIS CYKLUS
 
-let cisla = []
-for (let i = 0; i < 11; i++){
-cisla.push(i)
+let i = 0;
+while (i <= 10) {
+    console.log('while ' + i)
+    i++;
 }
-
-console.log(cisla);
-document.querySelector('#text').innerHTML = cisla
 
 // Druhý příklad - zkopíruj předchozí příklad
 // a vyzkoušej, jaký je rozdíl mezi <= a <
@@ -23,32 +21,21 @@ console.log('Druhý příklad - rozdíl mezi <= a <');
 
 //TADY NAPIS CYKLUS
 
-
-let cisla2 = []
-for (let i = 0; i <= 11; i++){
-cisla2.push(i)
+let j = 0;
+while (j < 10) {
+    console.log('while ' + j)
+    j++;
 }
-
-console.log(cisla2);
-document.querySelector('#text2').innerHTML = cisla2
-
-
 
 
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 console.log('Třetí příklad - sestupná řada 10 - 0');
 
 //TADY NAPIS CYKLUS
-let cisla3 = []
-for (let i = 10; i >= 0; i--){
-    cisla3.push(i)
-}
-console.log(cisla3);
-document.querySelector('#text3').innerHTML = cisla3
 
-let i = 10
-while (i >= 0) {
-    console.log('while ' + i)
-    i--;
+let k = 10;
+while (k >= 0) {
+    console.log('while ' + k)
+    k--;
 }
 
